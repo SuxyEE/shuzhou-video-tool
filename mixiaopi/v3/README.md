@@ -40,3 +40,11 @@ python3 mixiaopi/v3/build/reoverlay_poses.py
 ```
 
 第一条做出实拍底板和旁白。第二条只重贴会飞的蜜小π。需要 ffmpeg、Pillow、numpy、scipy，以及能联网的 edge-tts。旁白若已生成在 `work/voice/`，脚本会直接用。
+
+剪映草稿给同事二创时，在电脑上用剪映专业版：
+
+```bash
+python3 mixiaopi/v3/build/export_jianying.py
+```
+
+得到的 `蜜小π_剪映草稿.zip` 里有导入说明。解压后双击 `导入剪映.bat`（苹果电脑用 `导入剪映.command`），退出剪映再打开，草稿名叫「蜜小π首发」。画面、蜜小π、字幕、旁白、音乐是分开的轨道。
